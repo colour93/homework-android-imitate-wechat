@@ -15,23 +15,20 @@
             android:id="@+id/btn_exit"
             android:layout_width="@dimen/form_cancel_button_size"
             android:layout_height="@dimen/form_cancel_button_size"
-            android:layout_marginTop="5dp"
             android:layout_marginStart="8dp"
-            android:background="@drawable/cancel"
-            >
+            android:layout_marginTop="5dp"
+            android:background="@drawable/cancel">
 
         </Button>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="40dp"
             android:text="@string/register_title"
             android:textColor="@color/black"
-            android:layout_marginTop="40dp"
-            android:layout_marginStart="8dp"
-            android:textSize="25dp"
-            >
-        </TextView>
+            android:textSize="25dp" />
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -43,12 +40,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
+                android:backgroundTint="@drawable/edit_text_border"
                 android:hint="@string/form_name_hint"
                 android:inputType="text"
                 android:paddingStart="@dimen/form_input_padding_left"
                 android:singleLine="true"
                 android:textColorHint="@color/hint"
-                android:backgroundTint="@drawable/edit_text_border"
                 android:textSize="@dimen/register_font_size" />
 
             <TextView
@@ -72,13 +69,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
+                android:backgroundTint="@drawable/edit_text_border"
                 android:hint="@string/form_phone_hint"
                 android:inputType="phone"
                 android:maxLength="11"
                 android:paddingStart="@dimen/form_input_padding_left"
                 android:singleLine="true"
                 android:textColorHint="@color/hint"
-                android:backgroundTint="@drawable/edit_text_border"
                 android:textSize="@dimen/register_font_size" />
 
             <TextView
@@ -102,12 +99,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
+                android:backgroundTint="@drawable/edit_text_border"
                 android:hint="@string/form_password_hint"
                 android:inputType="textPassword"
                 android:paddingStart="@dimen/form_input_padding_left"
                 android:singleLine="true"
                 android:textColorHint="@color/hint"
-                android:backgroundTint="@drawable/edit_text_border"
                 android:textSize="@dimen/register_font_size" />
 
             <TextView
@@ -126,11 +123,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:enabled="true"
-            android:text="@string/register_button"
             android:backgroundTint="?attr/colorPrimary"
-            android:textColor="?attr/colorOnPrimary"
+            android:enabled="true"
             android:padding="@dimen/form_button_padding"
+            android:text="@string/register_button"
+            android:textColor="?attr/colorOnPrimary"
             android:textSize="@dimen/form_button_font_size" />
 
     </LinearLayout>

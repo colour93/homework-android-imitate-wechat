@@ -1,5 +1,6 @@
 package icu.fur93.imitatewechat.ui.login
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -35,6 +36,13 @@ class LoginActivity : AppCompatActivity() {
                 Toast.makeText(this, R.string.msg_login_failed_toast, Toast.LENGTH_SHORT).show()
 
             }
+
+        }
+
+        binding.btnToSignUp.setOnClickListener{
+
+            val intent = Intent(this, RegisterActivity::class.java)
+            startActivity(intent)
 
         }
 

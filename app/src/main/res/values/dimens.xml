@@ -14,5 +14,7 @@
     <dimen name="form_button_font_size">20dp</dimen>
     <dimen name="form_button_padding">18dp</dimen>
 
+    <dimen name="login_secondary_font_size">14dp</dimen>
+
     <dimen name="login_avatar_size">96dp</dimen>
 </resources>
