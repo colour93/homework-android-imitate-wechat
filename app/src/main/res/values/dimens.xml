@@ -1,0 +1,18 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="register_font_size">20dp</dimen>
+    <dimen name="login_font_size">20dp</dimen>
+
+    <dimen name="form_cancel_button_size">25dp</dimen>
+    <dimen name="form_label_margin_left">12dp</dimen>
+    <dimen name="form_input_padding_left">110dp</dimen>
+    <dimen name="form_input_margin_top">40dp</dimen>
+
+    <dimen name="form_button_font_size">20dp</dimen>
+    <dimen name="form_button_padding">18dp</dimen>
+
+    <dimen name="login_avatar_size">96dp</dimen>
+</resources>

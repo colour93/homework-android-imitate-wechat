@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">仿微信</string>
+    <string name="register_title">手机号注册</string>
+    <string name="form_name">昵称</string>
+    <string name="form_phone">手机号</string>
+    <string name="form_name_hint">请输入昵称</string>
+    <string name="form_phone_hint">请输入手机号</string>
+    <string name="form_password">密码</string>
+    <string name="form_password_hint">请输入密码</string>
+    <string name="register_button">注册</string>
+    <string name="login_button">登录</string>
+    <string name="login_other_login_options_hint">切换验证方式</string>
+    <string name="login_request_account_recovery_hint">找回密码</string>
+    <string name="login_freeze_account_hint">紧急冻结</string>
+    <string name="login_more_options_hint">更多</string>
+    <string name="login_sign_up_hint">注册</string>
+    <string name="msg_filed_validate_toast">请输入用户名或密码</string>
+    <string name="msg_login_successful_toast">登录成功</string>
+    <string name="msg_login_failed_toast">密码错误，请重新输入</string>
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Imitate WeChat</string>
+    <string name="register_title">Sign up by phone number</string>
+    <string name="form_name">Name</string>
+    <string name="form_phone">Phone</string>
+    <string name="form_name_hint">Enter nickname</string>
+    <string name="form_phone_hint">Enter mobile number</string>
+    <string name="form_password">Password</string>
+    <string name="form_password_hint">Enter password</string>
+    <string name="register_button">Sign Up</string>
+    <string name="login_button">Log In</string>
+    <string name="login_other_login_options_hint">Other Login Options</string>
+    <string name="login_request_account_recovery_hint">Account Recovery</string>
+    <string name="login_freeze_account_hint">Freeze Account</string>
+    <string name="login_more_options_hint">More Options</string>
+    <string name="login_sign_up_hint">Sign Up</string>
+    <string name="msg_filed_validate_toast">Please enter name and password</string>
+    <string name="msg_login_successful_toast">Login successful</string>
+    <string name="msg_login_failed_toast">Wrong password</string>
+    <!-- Strings related to login -->
+</resources>
