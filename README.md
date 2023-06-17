@@ -22,8 +22,8 @@
 
 ### 注册
 
-![](docs/register.png)
+![](docs/register.jpg)
 
 ### 登录
 
-![](docs/login.png)
+![](docs/login.jpg)
